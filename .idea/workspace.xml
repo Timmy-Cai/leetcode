@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb90c471-34d4-42ac-93be-f081d17166cf" name="Default Changelist" comment="" />
+    <list default="true" id="bb90c471-34d4-42ac-93be-f081d17166cf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode_100.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode_53.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode_58.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode_66.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode_67.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode_69.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode_70.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode_83.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode_88.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +27,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1QoiwHGIQXNfc0ZOEjYZ8P5YpFa" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/libs" />
@@ -64,10 +80,25 @@
       <workItem from="1568443589623" duration="1440000" />
       <workItem from="1569674733632" duration="4000" />
       <workItem from="1573969294514" duration="12412000" />
+      <workItem from="1573986681448" duration="15000" />
+      <workItem from="1574593124645" duration="10137000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
