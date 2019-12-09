@@ -2,66 +2,75 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb90c471-34d4-42ac-93be-f081d17166cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/easy101_200/LeetCode_101.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easy101_200/LeetCode_104.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easy101_200/LeetCode_107.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easy101_200/LeetCode_108.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easy101_200/LeetCode_110.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easy101_200/LeetCode_111.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easy101_200/LeetCode_112.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easy101_200/LeetCode_118.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easy101_200/LeetCode_119.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easy101_200/LeetCode_121.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easy101_200/LeetCode_122.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easy101_200/LeetCode_125.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easy101_200/LeetCode_136.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easy101_200/LeetCode_141.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy150_200/LeetCode_155.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy150_200/LeetCode_160.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy150_200/LeetCode_167.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy150_200/LeetCode_168.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy150_200/LeetCode_169.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy150_200/LeetCode_171.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy150_200/LeetCode_172.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy150_200/LeetCode_189.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy150_200/LeetCode_190.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy150_200/LeetCode_191.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy150_200/LeetCode_198.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/LeetCode_1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/LeetCode_100$TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/LeetCode_100.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/LeetCode_13.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/LeetCode_14.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/LeetCode_20.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/LeetCode_21$ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/LeetCode_21.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/LeetCode_26.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/LeetCode_27.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/LeetCode_28.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/LeetCode_35.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/LeetCode_38.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/LeetCode_53.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/LeetCode_58.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/LeetCode_66.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/LeetCode_67.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/LeetCode_69.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/LeetCode_7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/LeetCode_70.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/LeetCode_83$ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/LeetCode_83.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/LeetCode_88.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/LeetCode_9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy1_100/LeetCode_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode_100.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy1_100/LeetCode_100.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode_13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy1_100/LeetCode_13.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode_14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy1_100/LeetCode_14.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode_20.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy1_100/LeetCode_20.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode_21.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy1_100/LeetCode_21.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode_26.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy1_100/LeetCode_26.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode_27.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy1_100/LeetCode_27.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode_28.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy1_100/LeetCode_28.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode_35.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy1_100/LeetCode_35.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode_38.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy1_100/LeetCode_38.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode_53.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy1_100/LeetCode_53.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode_58.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy1_100/LeetCode_58.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode_66.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy1_100/LeetCode_66.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode_67.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy1_100/LeetCode_67.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode_69.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy1_100/LeetCode_69.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode_7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy1_100/LeetCode_7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode_70.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy1_100/LeetCode_70.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode_83.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy1_100/LeetCode_83.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode_88.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy1_100/LeetCode_88.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode_9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy1_100/LeetCode_9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/META-INF/leetcode.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/easy101_200/LeetCode_101$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/easy101_200/LeetCode_101.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/easy101_200/LeetCode_104$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/easy101_200/LeetCode_104.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/easy101_200/LeetCode_107$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/easy101_200/LeetCode_107.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/easy101_200/LeetCode_108$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/easy101_200/LeetCode_108.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/easy101_200/LeetCode_110$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/easy101_200/LeetCode_110.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/easy101_200/LeetCode_111$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/easy101_200/LeetCode_111.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/easy101_200/LeetCode_112$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/easy101_200/LeetCode_112.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/easy101_200/LeetCode_118.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/easy101_200/LeetCode_119.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/easy101_200/LeetCode_121.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/easy101_200/LeetCode_122.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/easy101_200/LeetCode_125.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/easy101_200/LeetCode_136.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/easy101_200/LeetCode_141$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/easy101_200/LeetCode_141.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/easy1_100/LeetCode_100$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/easy1_100/LeetCode_100.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/easy1_100/LeetCode_53.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/easy1_100/LeetCode_58.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/easy1_100/LeetCode_66.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/easy1_100/LeetCode_67.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/easy1_100/LeetCode_69.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/easy1_100/LeetCode_70.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/easy1_100/LeetCode_83$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/easy1_100/LeetCode_83.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/easy1_100/LeetCode_88.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy101_200/LeetCode_101.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy100_150/LeetCode_101.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy101_200/LeetCode_104.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy100_150/LeetCode_104.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy101_200/LeetCode_107.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy100_150/LeetCode_107.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy101_200/LeetCode_108.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy100_150/LeetCode_108.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy101_200/LeetCode_110.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy100_150/LeetCode_110.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy101_200/LeetCode_111.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy100_150/LeetCode_111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy101_200/LeetCode_112.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy100_150/LeetCode_112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy101_200/LeetCode_118.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy100_150/LeetCode_118.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy101_200/LeetCode_119.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy100_150/LeetCode_119.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy101_200/LeetCode_121.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy100_150/LeetCode_121.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy101_200/LeetCode_122.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy100_150/LeetCode_122.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy101_200/LeetCode_125.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy100_150/LeetCode_125.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy101_200/LeetCode_136.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy100_150/LeetCode_136.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy101_200/LeetCode_141.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy100_150/LeetCode_141.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy1_100/LeetCode_100.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy50_100/LeetCode_100.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy1_100/LeetCode_53.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy50_100/LeetCode_53.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy1_100/LeetCode_58.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy50_100/LeetCode_58.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy1_100/LeetCode_66.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy50_100/LeetCode_66.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy1_100/LeetCode_67.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy50_100/LeetCode_67.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy1_100/LeetCode_69.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy50_100/LeetCode_69.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy1_100/LeetCode_70.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy50_100/LeetCode_70.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy1_100/LeetCode_83.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy50_100/LeetCode_83.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy1_100/LeetCode_88.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy50_100/LeetCode_88.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -135,6 +144,7 @@
       <workItem from="1575529054964" duration="89000" />
       <workItem from="1575529179393" duration="4423000" />
       <workItem from="1575694599743" duration="7347000" />
+      <workItem from="1575779632401" duration="10045000" />
     </task>
     <servers />
   </component>
