@@ -1,4 +1,4 @@
-package easy1_100;
+package easy1_50;
 
 import org.junit.Test;
 
