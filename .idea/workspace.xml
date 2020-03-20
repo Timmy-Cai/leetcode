@@ -2,35 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb90c471-34d4-42ac-93be-f081d17166cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/common/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/medium1_50/LeetCode_11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/medium1_50/LeetCode_15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/medium1_50/LeetCode_17.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/medium1_50/LeetCode_19.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/medium1_50/LeetCode_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/medium1_50/LeetCode_22.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/medium1_50/LeetCode_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/medium1_50/LeetCode_31.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/medium1_50/LeetCode_33.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/medium1_50/LeetCode_34.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/medium1_50/LeetCode_39.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/medium1_50/LeetCode_4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/medium1_50/LeetCode_46.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/medium1_50/LeetCode_48.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/medium1_50/LeetCode_49.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/medium100_150/LeetCode_102.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/medium100_150/LeetCode_105.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/medium100_150/LeetCode_114.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/medium100_150/LeetCode_139.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/medium100_150/LeetCode_142.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/medium100_150/LeetCode_146.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/medium100_150/LeetCode_148.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/medium50_100/LeetCode_55.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/medium50_100/LeetCode_56.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/medium50_100/LeetCode_62.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/medium50_100/LeetCode_64.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/medium50_100/LeetCode_75.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/medium50_100/LeetCode_78.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/medium50_100/LeetCode_79.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/medium50_100/LeetCode_94.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/medium50_100/LeetCode_96.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/medium50_100/LeetCode_98.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/easy1_100/LeetCode_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy1_50/LeetCode_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/easy1_100/LeetCode_13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy1_50/LeetCode_13.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/easy1_100/LeetCode_14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy1_50/LeetCode_14.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/easy1_100/LeetCode_20.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy1_50/LeetCode_20.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/easy1_100/LeetCode_21.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy1_50/LeetCode_21.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/easy1_100/LeetCode_26.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy1_50/LeetCode_26.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/easy1_100/LeetCode_27.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy1_50/LeetCode_27.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/easy1_100/LeetCode_28.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy1_50/LeetCode_28.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/easy1_100/LeetCode_35.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy1_50/LeetCode_35.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/easy1_100/LeetCode_38.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy1_50/LeetCode_38.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/easy1_100/LeetCode_7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy1_50/LeetCode_7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/easy1_100/LeetCode_9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy1_50/LeetCode_9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/medium1_50/LeetCode_39.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/medium1_50/LeetCode_39.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/medium1_50/LeetCode_46.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/medium1_50/LeetCode_46.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +123,7 @@
       <workItem from="1576046045670" duration="4542000" />
       <workItem from="1582533199726" duration="956000" />
       <workItem from="1582534614176" duration="10000" />
-      <workItem from="1584625513017" duration="19772000" />
+      <workItem from="1584625513017" duration="48589000" />
     </task>
     <servers />
   </component>
@@ -184,13 +176,13 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="108" y="168" key="new project wizard/0.0.1440.920@0.0.1440.920" timestamp="1582534340277" />
-    <state x="377" y="211" key="run.anything.popup" timestamp="1576050480742">
+    <state x="377" y="211" key="run.anything.popup" timestamp="1584733763718">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="377" y="211" key="run.anything.popup/0.0.1440.920@0.0.1440.920" timestamp="1576050480742" />
-    <state x="383" y="195" width="672" height="678" key="search.everywhere.popup" timestamp="1584634808230">
+    <state x="377" y="211" key="run.anything.popup/0.0.1440.920@0.0.1440.920" timestamp="1584733763718" />
+    <state x="383" y="195" width="672" height="678" key="search.everywhere.popup" timestamp="1584706891052">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="383" y="195" width="672" height="678" key="search.everywhere.popup/0.0.1440.920@0.0.1440.920" timestamp="1584634808230" />
+    <state x="383" y="195" width="672" height="678" key="search.everywhere.popup/0.0.1440.920@0.0.1440.920" timestamp="1584706891052" />
   </component>
 </project>
