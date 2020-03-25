@@ -1,11 +1,6 @@
 package easy50_100;
 
-import org.junit.Test;
-
-import static org.junit.Assert.assertEquals;
-
 public class LeetCode_67 {
-
     public String addBinary(String a, String b) {
         if (a.length() > b.length()) {
             int len = a.length() - b.length();
@@ -30,11 +25,5 @@ public class LeetCode_67 {
             return carry + res;
         }
         return res;
-    }
-
-    @Test
-    public void testCode() {
-        assertEquals(addBinary("11", "1"), "100");
-        assertEquals(addBinary("1010", "1011"), "10101");
     }
 }

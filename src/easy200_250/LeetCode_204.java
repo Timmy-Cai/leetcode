@@ -1,11 +1,6 @@
 package easy200_250;
 
-import org.junit.Test;
-
-import static org.junit.Assert.assertEquals;
-
 public class LeetCode_204 {
-
     public int countPrimes(int n) {
         boolean[] isPrime = new boolean[n];
         for (int i = 2; i < n; i++) {
@@ -22,10 +17,5 @@ public class LeetCode_204 {
             if (isPrime[i]) count++;
         }
         return count;
-    }
-
-    @Test
-    public void testCode() {
-        assertEquals(countPrimes(10), 4); // 2 3 5 7
     }
 }

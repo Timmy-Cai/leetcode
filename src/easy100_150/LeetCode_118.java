@@ -1,12 +1,9 @@
 package easy100_150;
 
-import org.junit.Test;
-
 import java.util.ArrayList;
 import java.util.List;
 
 public class LeetCode_118 {
-
     public List<List<Integer>> generate(int numRows) {
         List<List<Integer>> result = new ArrayList<List<Integer>>();
         for (int i = 0; i < numRows; i++) {
@@ -20,16 +17,5 @@ public class LeetCode_118 {
             result.add(li);
         }
         return result;
-    }
-
-    @Test
-    public void testCode() {
-        List<List<Integer>> result = generate(5);
-        for (List<Integer> li : result) {
-            for (Integer i : li) {
-                System.out.print(i);
-            }
-            System.out.println();
-        }
     }
 }

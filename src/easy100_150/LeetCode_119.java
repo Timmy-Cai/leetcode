@@ -1,12 +1,9 @@
 package easy100_150;
 
-import org.junit.Test;
-
 import java.util.ArrayList;
 import java.util.List;
 
 public class LeetCode_119 {
-
     // C(n,i) = n!/(i!*(n-i)!)
     public List<Integer> getRow(int rowIndex) {
         List<Integer> result = new ArrayList<Integer>();
@@ -19,13 +16,5 @@ public class LeetCode_119 {
             result.add(result.get(rowIndex - i));
         }
         return result;
-    }
-
-    @Test
-    public void testCode() {
-        List<Integer> result = getRow(3);
-        for (Integer i : result) {
-            System.out.print(i + " ");
-        }
     }
 }

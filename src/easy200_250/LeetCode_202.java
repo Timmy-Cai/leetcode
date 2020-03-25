@@ -1,15 +1,8 @@
 package easy200_250;
 
-import com.sun.org.apache.xpath.internal.operations.Bool;
-import org.junit.Test;
-
-import java.util.HashMap;
 import java.util.HashSet;
 
-import static org.junit.Assert.assertEquals;
-
 public class LeetCode_202 {
-
     public int getSquare(int n) {
         int m = 0;
         while (n != 0) {
@@ -27,10 +20,5 @@ public class LeetCode_202 {
             happySet.add(n);
         }
         return true;
-    }
-
-    @Test
-    public void testCode() {
-        assertEquals(isHappy(19), true);
     }
 }

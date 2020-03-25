@@ -1,11 +1,6 @@
 package easy50_100;
 
-import org.junit.Test;
-
-import static org.junit.Assert.assertArrayEquals;
-
 public class LeetCode_66 {
-
     public int[] plusOne(int[] digits) {
         int carry = 1;
         for (int i = digits.length - 1; i >= 0; i--) {
@@ -23,16 +18,5 @@ public class LeetCode_66 {
             return a;
         }
         return digits;
-    }
-
-    @Test
-    public void testCode() {
-        int[] a = {1, 2, 3};
-        int[] aa = {1, 2, 4};
-        assertArrayEquals(plusOne(a), aa);
-
-        int[] b = {4, 3, 2, 1};
-        int[] bb = {4, 3, 2, 2};
-        assertArrayEquals(plusOne(b), bb);
     }
 }

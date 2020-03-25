@@ -1,18 +1,12 @@
 package easy200_250;
 
-import org.junit.Test;
-
-import java.util.ArrayList;
 import java.util.LinkedList;
-import java.util.List;
 import java.util.Queue;
 
-import static org.junit.Assert.assertEquals;
 
 public class LeetCode_225 {
 
     class MyStack {
-
         Queue<Integer> in;
         Queue<Integer> out;
 
@@ -38,16 +32,5 @@ public class LeetCode_225 {
         public boolean empty() {
             return out.isEmpty();
         }
-    }
-
-    @Test
-    public void testCode() {
-        MyStack myStack = new MyStack();
-        myStack.push(5);
-        myStack.push(2);
-        myStack.push(0);
-        assertEquals(myStack.pop(), 0);
-        assertEquals(myStack.top(), 2);
-        assertEquals(myStack.empty(), false);
     }
 }

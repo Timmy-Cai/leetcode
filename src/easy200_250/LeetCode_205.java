@@ -1,13 +1,8 @@
 package easy200_250;
 
-import org.junit.Test;
-
 import java.util.HashMap;
 
-import static org.junit.Assert.assertEquals;
-
 public class LeetCode_205 {
-
     public boolean isIsomorphic(String s, String t) {
         if (s.length() == 0) return true;
         HashMap<Character, Character> cmap = new HashMap<>();
@@ -22,12 +17,5 @@ public class LeetCode_205 {
             }
         }
         return true;
-    }
-
-    @Test
-    public void testCode() {
-        assertEquals(isIsomorphic("egg", "add"), true);
-        assertEquals(isIsomorphic("foo", "bar"), false);
-        assertEquals(isIsomorphic("paper", "title"), true);
     }
 }

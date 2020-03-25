@@ -1,11 +1,6 @@
 package easy150_200;
 
-import org.junit.Test;
-
-import static org.junit.Assert.assertEquals;
-
 public class LeetCode_198 {
-
     public int rob(int[] nums) {
         if (nums.length == 0) return 0;
         if (nums.length == 1) return nums[0];
@@ -15,14 +10,5 @@ public class LeetCode_198 {
         for (int i = 2; i < nums.length; i++)
             dp[i] = Math.max(dp[i - 2] + nums[i], dp[i - 1]);
         return dp[nums.length - 1];
-    }
-
-    @Test
-    public void testCode() {
-        int[] nums1 = {1, 2, 3, 1};
-        assertEquals(rob(nums1), 4);
-
-        int[] nums2 = {2, 7, 9, 3, 1};
-        assertEquals(rob(nums2), 12);
     }
 }

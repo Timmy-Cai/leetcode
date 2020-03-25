@@ -1,20 +1,8 @@
 package easy200_250;
 
-import org.junit.Test;
-
-import static org.junit.Assert.assertEquals;
+import common.ListNode;
 
 public class LeetCode_234 {
-
-    public class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
-    }
-
     public ListNode reverse(ListNode head) {
         ListNode cur = head;
         ListNode pre = null;
@@ -45,18 +33,5 @@ public class LeetCode_234 {
             prev = prev.next;
         }
         return true;
-    }
-
-    @Test
-    public void testCode() {
-        ListNode node1 = new ListNode(1);
-        node1.next = new ListNode(2);
-        assertEquals(isPalindrome(node1), false);
-
-        ListNode node2 = new ListNode(1);
-        node2.next = new ListNode(2);
-        node2.next.next = new ListNode(2);
-        node2.next.next.next = new ListNode(1);
-        assertEquals(isPalindrome(node2), true);
     }
 }

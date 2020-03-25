@@ -1,16 +1,10 @@
 package easy150_200;
 
-import org.junit.Test;
-
 import java.util.ArrayList;
 import java.util.List;
 
-import static org.junit.Assert.assertEquals;
-
 public class LeetCode_155 {
-
     class MinStack {
-
         List<Integer> li;
 
         public MinStack() {
@@ -36,17 +30,5 @@ public class LeetCode_155 {
                     min = i;
             return min;
         }
-    }
-
-    @Test
-    public void testCode() {
-        MinStack minStack = new MinStack();
-        minStack.push(-2);
-        minStack.push(0);
-        minStack.push(-3);
-        assertEquals(minStack.getMin(), -3);
-        minStack.pop();
-        assertEquals(minStack.top(), 0);
-        assertEquals(minStack.getMin(), -2);
     }
 }

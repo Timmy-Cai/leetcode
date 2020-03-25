@@ -1,21 +1,10 @@
 package easy100_150;
 
-import org.junit.Test;
+import common.TreeNode;
 
 import java.util.*;
 
 public class LeetCode_107 {
-
-    public class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
-        }
-    }
-
     public List<List<Integer>> levelOrderBottom(TreeNode root) {
         List<List<Integer>> lli = new ArrayList<>();
         if (root == null) return lli;
@@ -33,21 +22,5 @@ public class LeetCode_107 {
             lli.add(0, li);
         }
         return lli;
-    }
-
-    @Test
-    public void testCode() {
-        TreeNode root = new TreeNode(3);
-        root.left = new TreeNode(9);
-        root.right = new TreeNode(20);
-        root.right.left = new TreeNode(15);
-        root.right.right = new TreeNode(7);
-        List<List<Integer>> result = levelOrderBottom(root);
-        for (List<Integer> li : result) {
-            for (Integer i : li) {
-                System.out.print(i);
-            }
-            System.out.println();
-        }
     }
 }

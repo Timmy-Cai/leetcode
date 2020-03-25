@@ -1,14 +1,9 @@
 package easy1_50;
 
-import org.junit.Test;
-
 import java.util.HashMap;
 import java.util.Map;
 
-import static org.junit.Assert.assertEquals;
-
 public class LeetCode_13 {
-
     public int romanToInt(String s) {
         Map<String, Integer> map = new HashMap<>();
         map.put("IV", 4);
@@ -50,14 +45,5 @@ public class LeetCode_13 {
             }
         }
         return res;
-    }
-
-    @Test
-    public void testCode() {
-        assertEquals(romanToInt("III"), 3);
-        assertEquals(romanToInt("IV"), 4);
-        assertEquals(romanToInt("IX"), 9);
-        assertEquals(romanToInt("LVIII"), 58);
-        assertEquals(romanToInt("MCMXCIV"), 1994);
     }
 }

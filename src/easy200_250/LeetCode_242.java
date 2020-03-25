@@ -1,13 +1,8 @@
 package easy200_250;
 
-import org.junit.Test;
-
 import java.util.HashMap;
 
-import static org.junit.Assert.assertEquals;
-
 public class LeetCode_242 {
-
     public boolean isAnagram(String s, String t) {
         if (s.length() != t.length()) return false;
         HashMap<Character, Integer> map = new HashMap<>();
@@ -25,11 +20,5 @@ public class LeetCode_242 {
             }
         }
         return map.isEmpty();
-    }
-
-    @Test
-    public void testCode() {
-        assertEquals(isAnagram("anagram", "nagaram"), true);
-        assertEquals(isAnagram("rat", "car"), false);
     }
 }

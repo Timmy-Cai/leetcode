@@ -1,11 +1,6 @@
 package easy1_50;
 
-import org.junit.Test;
-
-import static org.junit.Assert.assertEquals;
-
 public class LeetCode_9 {
-
     public boolean isPalindrome(int x) {
         if (x < 0) return false;
         int xx = x;
@@ -15,12 +10,5 @@ public class LeetCode_9 {
             x /= 10;
         }
         return res == xx;
-    }
-
-    @Test
-    public void testCode() {
-        assertEquals(isPalindrome(121), true);
-        assertEquals(isPalindrome(-121), false);
-        assertEquals(isPalindrome(10), false);
     }
 }

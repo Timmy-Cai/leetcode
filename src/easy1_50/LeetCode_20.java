@@ -1,13 +1,8 @@
 package easy1_50;
 
-import org.junit.Test;
-
 import java.util.Stack;
 
-import static org.junit.Assert.assertEquals;
-
 public class LeetCode_20 {
-
     public boolean isValid(String s) {
         if (s == null || s.length() == 0) return true;
         Stack stack = new Stack();
@@ -29,14 +24,5 @@ public class LeetCode_20 {
                 stack.push(cc);
         }
         return stack.empty();
-    }
-
-    @Test
-    public void testCode() {
-        assertEquals(isValid("()"), true);
-        assertEquals(isValid("()[]{}"), true);
-        assertEquals(isValid("(]"), false);
-        assertEquals(isValid("([)]"), false);
-        assertEquals(isValid("{[]}"), true);
     }
 }
