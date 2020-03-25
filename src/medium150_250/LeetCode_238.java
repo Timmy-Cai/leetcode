@@ -1,4 +1,4 @@
-package medium200_250;
+package medium150_250;
 
 public class LeetCode_238 {
     public int[] productExceptSelf(int[] nums) {

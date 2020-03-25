@@ -1,4 +1,4 @@
-package medium150_200;
+package medium150_250;
 
 public class LeetCode_152 {
     public int maxProduct(int[] nums) {

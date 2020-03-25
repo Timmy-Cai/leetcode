@@ -1,4 +1,4 @@
-package medium200_250;
+package medium150_250;
 
 public class LeetCode_200 {
     private int[][] dir = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
