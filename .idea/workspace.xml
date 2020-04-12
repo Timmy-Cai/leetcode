@@ -2,30 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb90c471-34d4-42ac-93be-f081d17166cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/jianzhi/easy25_50/JIANZHI_30.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jianzhi/easy25_50/JIANZHI_32_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jianzhi/easy25_50/JIANZHI_39.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jianzhi/easy25_50/JIANZHI_40.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jianzhi/easy25_50/JIANZHI_42.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jianzhi/easy25_50/JIANZHI_50.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jianzhi/easy50_75/JIANZHI_52.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jianzhi/easy50_75/JIANZHI_53_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jianzhi/easy50_75/JIANZHI_53_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jianzhi/easy50_75/JIANZHI_54.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jianzhi/easy50_75/JIANZHI_55_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jianzhi/easy50_75/JIANZHI_55_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jianzhi/easy50_75/JIANZHI_57_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jianzhi/easy50_75/JIANZHI_57_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jianzhi/easy50_75/JIANZHI_58_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jianzhi/easy50_75/JIANZHI_58_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jianzhi/easy50_75/JIANZHI_59_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jianzhi/easy50_75/JIANZHI_60.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jianzhi/easy50_75/JIANZHI_61.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jianzhi/easy50_75/JIANZHI_62.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jianzhi/easy50_75/JIANZHI_65.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jianzhi/easy50_75/JIANZHI_66.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jianzhi/easy50_75/JIANZHI_68_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jianzhi/easy50_75/JIANZHI_68_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jianzhi/medium25_50/JIANZHI_23_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jianzhi/medium25_50/JIANZHI_35.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jianzhi/medium25_50/JIANZHI_38.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jianzhi/medium25_50/JIANZHI_43.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jianzhi/medium25_50/JIANZHI_45.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jianzhi/medium25_50/JIANZHI_46.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jianzhi/medium25_50/JIANZHI_47.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jianzhi/medium25_50/JIANZHI_48.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jianzhi/medium25_50/JIANZHI_49.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jianzhi/medium25_50/JIANZH_23_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jianzhi/medium50_75/JIANZHI_56_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jianzhi/medium50_75/JIANZHI_56_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jianzhi/medium50_75/JIANZHI_59_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jianzhi/medium50_75/JIANZHI_63.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jianzhi/medium50_75/JIANZHI_65.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jianzhi/medium50_75/JIANZHI_67.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,17 +75,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="jianzhi.medium50_75" />
       <recent name="jianzhi.easy50_75" />
       <recent name="jianzhi.easy25_50" />
       <recent name="jianzhi.easy1_50" />
       <recent name="medium1_50" />
-      <recent name="easy200_250" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\code\leetcode\libs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TopK">
+  <component name="RunManager" selected="Application.QuickSort">
     <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="helloworld.QuickSort" />
       <module name="leetcode" />
@@ -182,7 +174,7 @@
       <workItem from="1585405934362" duration="9939000" />
       <workItem from="1585564817447" duration="1051000" />
       <workItem from="1585718615361" duration="69000" />
-      <workItem from="1586372158314" duration="41398000" />
+      <workItem from="1586372158314" duration="65868000" />
     </task>
     <servers />
   </component>
@@ -235,10 +227,10 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="224" y="106" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1582534601350" />
-    <state x="451" y="232" key="extract.method.dialog" timestamp="1586424686466">
+    <state x="451" y="232" key="extract.method.dialog" timestamp="1586720150675">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="451" y="232" key="extract.method.dialog/0.0.1440.920@0.0.1440.920" timestamp="1586424686466" />
+    <state x="451" y="232" key="extract.method.dialog/0.0.1440.920@0.0.1440.920" timestamp="1586720150675" />
     <state x="412" y="215" width="617" height="490" key="find.popup" timestamp="1586415653711">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -247,13 +239,13 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="108" y="168" key="new project wizard/0.0.1440.920@0.0.1440.920" timestamp="1582534340277" />
-    <state x="377" y="211" key="run.anything.popup" timestamp="1586421632918">
+    <state x="377" y="211" key="run.anything.popup" timestamp="1586717649478">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="377" y="211" key="run.anything.popup/0.0.1440.920@0.0.1440.920" timestamp="1586421632918" />
-    <state x="383" y="195" width="672" height="678" key="search.everywhere.popup" timestamp="1586457451494">
+    <state x="377" y="211" key="run.anything.popup/0.0.1440.920@0.0.1440.920" timestamp="1586717649478" />
+    <state x="383" y="195" width="672" height="678" key="search.everywhere.popup" timestamp="1586693944076">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="383" y="195" width="672" height="678" key="search.everywhere.popup/0.0.1440.920@0.0.1440.920" timestamp="1586457451494" />
+    <state x="383" y="195" width="672" height="678" key="search.everywhere.popup/0.0.1440.920@0.0.1440.920" timestamp="1586693944076" />
   </component>
 </project>
