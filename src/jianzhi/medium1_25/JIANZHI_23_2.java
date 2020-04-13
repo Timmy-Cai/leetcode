@@ -1,10 +1,10 @@
-package jianzhi.medium25_50;
+package jianzhi.medium1_25;
 
 import common.TreeNode;
 
 import java.util.*;
 
-public class JIANZH_23_2 {
+public class JIANZHI_23_2 {
     public List<List<Integer>> levelOrder(TreeNode root) {
         List<List<Integer>> ans = new ArrayList<>();
         if (root == null) return ans;

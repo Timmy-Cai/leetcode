@@ -1,4 +1,4 @@
-package jianzhi.medium25_50;
+package jianzhi.medium1_25;
 
 import common.TreeNode;
 

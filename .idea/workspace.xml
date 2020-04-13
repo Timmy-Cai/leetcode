@@ -2,23 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb90c471-34d4-42ac-93be-f081d17166cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/jianzhi/medium25_50/JIANZHI_23_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jianzhi/medium25_50/JIANZHI_35.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jianzhi/medium25_50/JIANZHI_38.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jianzhi/medium25_50/JIANZHI_43.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jianzhi/medium25_50/JIANZHI_45.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jianzhi/medium25_50/JIANZHI_46.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jianzhi/medium25_50/JIANZHI_47.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jianzhi/medium25_50/JIANZHI_48.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jianzhi/medium25_50/JIANZHI_49.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jianzhi/medium25_50/JIANZH_23_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jianzhi/medium50_75/JIANZHI_56_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jianzhi/medium50_75/JIANZHI_56_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jianzhi/medium50_75/JIANZHI_59_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jianzhi/medium50_75/JIANZHI_63.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jianzhi/medium50_75/JIANZHI_65.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jianzhi/medium50_75/JIANZHI_67.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jianzhi/medium1_25/JIANZHI_07.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jianzhi/medium1_25/JIANZHI_12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jianzhi/medium1_25/JIANZHI_13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jianzhi/medium1_25/JIANZHI_14_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jianzhi/medium1_25/JIANZHI_14_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jianzhi/medium1_25/JIANZHI_16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jianzhi/medium1_25/JIANZHI_20.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jianzhi/medium25_50/JIANZHI_26.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jianzhi/medium25_50/JIANZHI_31.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jianzhi/medium25_50/JIANZHI_33.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jianzhi/medium25_50/JIANZHI_34.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jianzhi/medium25_50/JIANZHI_36.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jianzhi/medium25_50/JIANZHI_44.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jianzhi/medium25_50/JIANZHI_23_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jianzhi/medium1_25/JIANZHI_23_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jianzhi/medium25_50/JIANZH_23_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jianzhi/medium1_25/JIANZHI_23_2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,11 +74,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="jianzhi.medium1_25" />
       <recent name="jianzhi.medium50_75" />
       <recent name="jianzhi.easy50_75" />
       <recent name="jianzhi.easy25_50" />
       <recent name="jianzhi.easy1_50" />
-      <recent name="medium1_50" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\code\leetcode\libs" />
@@ -125,6 +124,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.QuickSort" />
+      <item itemvalue="Application.ThreadPrint" />
+      <item itemvalue="Application.TopK" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.TopK" />
@@ -174,7 +178,7 @@
       <workItem from="1585405934362" duration="9939000" />
       <workItem from="1585564817447" duration="1051000" />
       <workItem from="1585718615361" duration="69000" />
-      <workItem from="1586372158314" duration="65868000" />
+      <workItem from="1586372158314" duration="85008000" />
     </task>
     <servers />
   </component>
@@ -195,34 +199,38 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="176" y="119" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585156452086">
+    <state x="176" y="119" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586792655755">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="176" y="119" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.920@0.0.1440.920" timestamp="1585156452086" />
+    <state x="176" y="119" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.920@0.0.1440.920" timestamp="1586792655755" />
     <state x="401" y="190" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1584964245294">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="401" y="190" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.920@0.0.1440.920" timestamp="1584964245294" />
+    <state x="510" y="350" width="421" height="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1586796781995">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="510" y="350" width="421" height="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.920@0.0.1440.920" timestamp="1586796781995" />
     <state x="501" y="219" key="FileChooserDialogImpl" timestamp="1585718681892">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="501" y="219" key="FileChooserDialogImpl/0.0.1440.920@0.0.1440.920" timestamp="1585718681892" />
-    <state width="1397" height="120" key="GridCell.Tab.0.bottom" timestamp="1586416481996">
+    <state width="1397" height="174" key="GridCell.Tab.0.bottom" timestamp="1586792645548">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="120" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1586416481996" />
-    <state width="1397" height="120" key="GridCell.Tab.0.center" timestamp="1586416481996">
+    <state width="1397" height="174" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1586792645548" />
+    <state width="1397" height="174" key="GridCell.Tab.0.center" timestamp="1586792645548">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="120" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1586416481996" />
-    <state width="1397" height="120" key="GridCell.Tab.0.left" timestamp="1586416481996">
+    <state width="1397" height="174" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1586792645548" />
+    <state width="1397" height="174" key="GridCell.Tab.0.left" timestamp="1586792645547">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="120" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1586416481996" />
-    <state width="1397" height="120" key="GridCell.Tab.0.right" timestamp="1586416481996">
+    <state width="1397" height="174" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1586792645547" />
+    <state width="1397" height="174" key="GridCell.Tab.0.right" timestamp="1586792645548">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="120" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1586416481996" />
+    <state width="1397" height="174" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1586792645548" />
     <state x="224" y="106" key="SettingsEditor" timestamp="1582534601350">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -231,10 +239,10 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="451" y="232" key="extract.method.dialog/0.0.1440.920@0.0.1440.920" timestamp="1586720150675" />
-    <state x="412" y="215" width="617" height="490" key="find.popup" timestamp="1586415653711">
+    <state x="412" y="215" width="746" height="548" key="find.popup" timestamp="1586792463954">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="412" y="215" width="617" height="490" key="find.popup/0.0.1440.920@0.0.1440.920" timestamp="1586415653711" />
+    <state x="412" y="215" width="746" height="548" key="find.popup/0.0.1440.920@0.0.1440.920" timestamp="1586792463954" />
     <state x="108" y="168" key="new project wizard" timestamp="1582534340277">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
