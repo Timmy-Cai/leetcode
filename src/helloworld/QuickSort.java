@@ -1,5 +1,14 @@
 package helloworld;
 
+/**
+ * 算法   最好    平均     最坏
+ * 冒泡   n       n2      n2
+ * 选择   n2      n2      n2
+ * 插入   n       n2      n2
+ * 归并   nlogn   nlogn   nlogn
+ * 快排   nlogn   nlogn   n2
+ * 堆排   nlogn   nlogn   nlogn
+ */
 public class QuickSort {
     public static void quickSort(int[] arr, int l, int r) {
         if (l >= r) return;

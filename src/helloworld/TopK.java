@@ -29,9 +29,9 @@ public class TopK {
         while (l < r) {
             int index = quickSort(arr, l, r);
             if (index > k) {
-                r = index - 1;
+                r = index - 1; // 大了
             } else if (index < k) {
-                l = index + 1;
+                l = index + 1; // 小了
             } else {
                 return arr[k];
             }
