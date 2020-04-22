@@ -6,16 +6,9 @@ public class TopK {
         int i = l, j = r, key = arr[l]; // 选择第一个数为key
         while (i < j) {
             while (i < j && arr[j] >= key) j--; // 从右往左找第一个小于key的值
-            if (i < j) {
-                arr[i] = arr[j];
-                i++;
-            }
-
+            if (i < j) arr[i++] = arr[j];
             while (i < j && arr[i] < key) i++; // 从左往右找第一个大于key的值
-            if (i < j) {
-                arr[j] = arr[i];
-                j--;
-            }
+            if (i < j) arr[j--] = arr[i];
         }
         // i == j
         arr[i] = key;
