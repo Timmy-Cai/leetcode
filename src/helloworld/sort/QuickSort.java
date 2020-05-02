@@ -1,4 +1,4 @@
-package helloworld;
+package helloworld.sort;
 
 /**
  * https://www.runoob.com/w3cnote/sort-algorithm-summary.html
@@ -17,7 +17,7 @@ public class QuickSort {
         while (i < j) {
             while (i < j && arr[j] >= key) j--; // 从右往左找第一个小于key的值
             if (i < j) arr[i++] = arr[j];
-            while (i < j && arr[i] < key) i++; // 从左往右找第一个大于key的值
+            while (i < j && arr[i] <= key) i++; // 从左往右找第一个大于key的值
             if (i < j) arr[j--] = arr[i];
         }
         // i == j

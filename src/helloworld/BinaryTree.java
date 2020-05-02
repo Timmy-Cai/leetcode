@@ -2,18 +2,6 @@ package helloworld;
 
 import java.util.Stack;
 
-/**
- * 拓扑排序：删除入度为 0 的顶点和所有出边
- * 关键路径：最早开始时间 = 最晚开始时间
- * <p>
- * 最短路径：
- * Dijkstra 迪杰斯特拉-单源
- * Floyd 弗洛伊德-多源
- * <p>
- * 最小生成树：
- * Prim 普里姆-加点法
- * Kruskal 克鲁斯卡尔-加边法
- */
 public class BinaryTree {
     static class TreeNode {
         char val;
