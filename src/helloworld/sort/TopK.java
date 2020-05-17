@@ -1,34 +1,54 @@
 package helloworld.sort;
 
+import java.util.Arrays;
+
 public class TopK {
-    public static int quickSort(int[] arr, int l, int r) {
-        if (l >= r) return -1;
-        int i = l, j = r, key = arr[l]; // 选择第一个数为key
+    public static int partition(int[] arr, int low, int high) {
+        if (low >= high) return -1;
+        int i = low, j = high, key = arr[low]; // 选择第一个数为key
         while (i < j) {
             while (i < j && arr[j] >= key) j--; // 从右往左找第一个小于key的值
             if (i < j) arr[i++] = arr[j];
             while (i < j && arr[i] <= key) i++; // 从左往右找第一个大于key的值
             if (i < j) arr[j--] = arr[i];
         }
-        // i == j
-        arr[i] = key;
-        // quickSort(arr, l, i - 1); // 注释
-        // quickSort(arr, i + 1, r); // 注释
+        arr[i] = key; // i == j
         return i;
     }
 
-    public static void topk(int[] arr, int left, int right, int k) {
-        if (left < right) {
-            int index = quickSort(arr, left, right);
-            if (index > k) topk(arr, left, index - 1, k); // 大了
-            else if (index < k) topk(arr, index + 1, right, k); // 小了
+    public static int[] find1(int[] arr, int k) {
+        int low = 0, high = arr.length - 1;
+        while (low < high) {
+            int index = partition(arr, low, high);
+            if (index > k) high = index - 1;
+            if (index < k) low = index + 1;
+            if (index == k) break;
         }
+        return Arrays.copyOf(arr, k);
+    }
+
+    public static int find2(int[] arr, int k) {
+        int low = 0, high = arr.length - 1;
+        while (low < high) {
+            int index = partition(arr, low, high);
+            if (index > k) high = index - 1;
+            if (index < k) low = index + 1;
+            if (index == k) break;
+        }
+        return arr[k];
     }
 
     public static void main(String[] args) {
-        int[] arr = {9, 8, 7, 6, 5, 4, 3, 2, 1, 0};
+        int[] nums = {9, 8, 7, 6, 5, 4, 3, 2, 1, 0};
         int k = 3;
-        topk(arr, 0, arr.length - 1, k);
-        for (int value : arr) System.out.print(value + " ");
+
+        // 最小的k个数
+        int[] result = find1(nums, k);
+        for (int num : result) System.out.print(num + " ");
+
+        // 数组中的第k个最大元素
+        System.out.println();
+        int result2 = find2(nums, nums.length - k); // 第k大就是第len-k小
+        System.out.print(result2);
     }
 }

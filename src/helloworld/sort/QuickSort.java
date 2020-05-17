@@ -11,19 +11,36 @@ package helloworld.sort;
  * 堆排   nlogn   nlogn   nlogn
  */
 public class QuickSort {
-    public static void quickSort(int[] arr, int l, int r) {
-        if (l >= r) return;
-        int i = l, j = r, key = arr[l]; // 选择第一个数为key
+    public static void quickSort(int[] arr, int low, int high) {
+        if (low >= high) return;
+        int index = partition(arr, low, high);
+        quickSort(arr, low, index - 1);
+        quickSort(arr, index + 1, high);
+    }
+
+    public static int partition(int[] arr, int low, int high) {
+        if (low >= high) return -1;
+        int i = low, j = high, key = arr[low]; // 选择第一个数为key
         while (i < j) {
             while (i < j && arr[j] >= key) j--; // 从右往左找第一个小于key的值
             if (i < j) arr[i++] = arr[j];
             while (i < j && arr[i] <= key) i++; // 从左往右找第一个大于key的值
             if (i < j) arr[j--] = arr[i];
         }
-        // i == j
-        arr[i] = key;
-        quickSort(arr, l, i - 1);
-        quickSort(arr, i + 1, r);
+        arr[i] = key; // i == j
+        return i;
+    }
+
+    public static void main(String[] args) {
+        int[] arr;
+        arr = new int[]{9, 8, 7, 6, 5, 4, 3, 2, 1, 0};
+        quickSort(arr, 0, arr.length - 1);
+        for (int num : arr) System.out.print(num + " ");
+
+        System.out.println();
+        arr = new int[]{5, 5, 4, 4, 3, 3, 2, 2, 1, 1};
+        quickSort2(arr, 0, arr.length - 1);
+        for (int num : arr) System.out.print(num + " ");
     }
 
     // 优化：
@@ -50,16 +67,5 @@ public class QuickSort {
         int tmp = a[first];
         a[first] = a[second];
         a[second] = tmp;
-    }
-
-    public static void main(String[] args) {
-        int[] arr;
-        arr = new int[]{9, 8, 7, 6, 5, 4, 3, 2, 1, 0};
-        quickSort(arr, 0, arr.length - 1);
-        for (int value : arr) System.out.print(value + " ");
-        System.out.println();
-        arr = new int[]{5, 5, 4, 4, 3, 3, 2, 2, 1, 1};
-        quickSort2(arr, 0, arr.length - 1);
-        for (int value : arr) System.out.print(value + " ");
     }
 }

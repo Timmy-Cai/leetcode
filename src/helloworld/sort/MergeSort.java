@@ -2,7 +2,7 @@ package helloworld.sort;
 
 public class MergeSort {
     public static void mergeSort(int[] arr, int left, int right) {
-        if (left == right) return;
+        if (left >= right) return;
         // 先递归分解数组
         int mid = (left + right) / 2;
         mergeSort(arr, left, mid);

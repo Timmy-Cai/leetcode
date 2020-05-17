@@ -2,13 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb90c471-34d4-42ac-93be-f081d17166cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/jianzhi/hard/JIANZHI_37.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jianzhi/hard/JIANZHI_41.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jianzhi/hard/JIANZHI_51.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helloworld/Shuffle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helloworld/UnionFind.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/src/netease5_16/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/src/netease5_16/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/src/netease5_16/Main3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/helloworld/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/helloworld/sort/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/helloworld/sort/MergeSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/helloworld/sort/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/helloworld/sort/QuickSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/helloworld/sort/TopK.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/helloworld/sort/TopK.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/helloworld/test/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/jianzhi/hard/JIANZHI_51.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/jianzhi/hard/JIANZHI_51.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/helloworld/sort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/helloworld/sort/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helloworld/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/helloworld/sort/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helloworld/sort/TopK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/helloworld/sort/TopK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helloworld/test/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,13 +61,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mall/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -66,23 +76,24 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="helloworld.sort" />
+      <recent name="" />
+      <recent name="test" />
       <recent name="helloworld" />
       <recent name="jianzhi.medium1_25" />
-      <recent name="jianzhi.medium50_75" />
-      <recent name="jianzhi.easy50_75" />
-      <recent name="jianzhi.easy25_50" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\leetcode\test\src" />
       <recent name="D:\code\leetcode\libs" />
     </key>
   </component>
   <component name="RunManager" selected="Application.MergeSort">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="helloworld.test.Main" />
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="helloworld.sort.MergeSort" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="helloworld.test.*" />
+          <option name="PATTERN" value="helloworld.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,8 +101,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="helloworld.sort.MergeSort" />
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="helloworld.sort.QuickSort" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="helloworld.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Shuffle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="helloworld.Shuffle" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="helloworld.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TopK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="helloworld.sort.TopK" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="helloworld.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TopK_small" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="helloworld.sort.TopK_small" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -106,7 +156,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.MergeSort" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.QuickSort" />
+        <item itemvalue="Application.TopK" />
+        <item itemvalue="Application.TopK_small" />
+        <item itemvalue="Application.Shuffle" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +204,10 @@
       <workItem from="1588403494107" duration="233000" />
       <workItem from="1588403735859" duration="2279000" />
       <workItem from="1588425005488" duration="537000" />
-      <workItem from="1589171709051" duration="23412000" />
+      <workItem from="1589171709051" duration="31591000" />
+      <workItem from="1589603955936" duration="10604000" />
+      <workItem from="1589640006336" duration="2393000" />
+      <workItem from="1589687068855" duration="6490000" />
     </task>
     <servers />
   </component>
@@ -191,22 +247,22 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="501" y="219" key="FileChooserDialogImpl/0.0.1440.920@0.0.1440.920" timestamp="1588425279739" />
-    <state width="1397" height="196" key="GridCell.Tab.0.bottom" timestamp="1589291501681">
+    <state width="1397" height="172" key="GridCell.Tab.0.bottom" timestamp="1589698937914">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="196" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1589291501681" />
-    <state width="1397" height="196" key="GridCell.Tab.0.center" timestamp="1589291501681">
+    <state width="1397" height="172" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1589698937914" />
+    <state width="1397" height="172" key="GridCell.Tab.0.center" timestamp="1589698937914">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="196" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1589291501681" />
-    <state width="1397" height="196" key="GridCell.Tab.0.left" timestamp="1589291501681">
+    <state width="1397" height="172" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1589698937914" />
+    <state width="1397" height="172" key="GridCell.Tab.0.left" timestamp="1589698937914">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="196" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1589291501681" />
-    <state width="1397" height="196" key="GridCell.Tab.0.right" timestamp="1589291501681">
+    <state width="1397" height="172" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1589698937914" />
+    <state width="1397" height="172" key="GridCell.Tab.0.right" timestamp="1589698937914">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="196" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1589291501681" />
+    <state width="1397" height="172" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1589698937914" />
     <state x="224" y="106" key="SettingsEditor" timestamp="1588403886272">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -219,14 +275,14 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="412" y="215" width="746" height="548" key="find.popup/0.0.1440.920@0.0.1440.920" timestamp="1586792463954" />
-    <state x="108" y="168" key="new project wizard" timestamp="1586917198001">
+    <state x="108" y="140" key="new project wizard" timestamp="1589604114705">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="108" y="168" key="new project wizard/0.0.1440.920@0.0.1440.920" timestamp="1586917198001" />
-    <state x="377" y="211" key="run.anything.popup" timestamp="1586717649478">
+    <state x="108" y="140" key="new project wizard/0.0.1440.920@0.0.1440.920" timestamp="1589604114705" />
+    <state x="377" y="211" key="run.anything.popup" timestamp="1589449631654">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="377" y="211" key="run.anything.popup/0.0.1440.920@0.0.1440.920" timestamp="1586717649478" />
+    <state x="377" y="211" key="run.anything.popup/0.0.1440.920@0.0.1440.920" timestamp="1589449631654" />
     <state x="383" y="195" width="672" height="678" key="search.everywhere.popup" timestamp="1587552726039">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
