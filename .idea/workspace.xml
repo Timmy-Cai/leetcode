@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb90c471-34d4-42ac-93be-f081d17166cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/helloworld/Shuffle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helloworld/UnionFind.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/netease5_16/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/netease5_16/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/netease5_16/Main3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/src/newcode5_21/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/src/newcode5_21/Main2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/helloworld/sort/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/helloworld/sort/QuickSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/helloworld/sort/TopK.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/helloworld/sort/TopK.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/helloworld/test/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/jianzhi/hard/JIANZHI_51.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/jianzhi/hard/JIANZHI_51.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helloworld/sort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/helloworld/sort/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helloworld/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/helloworld/sort/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helloworld/sort/TopK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/helloworld/sort/TopK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helloworld/test/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,18 +63,44 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="newcode5_21" />
       <recent name="helloworld.sort" />
       <recent name="" />
       <recent name="test" />
       <recent name="helloworld" />
-      <recent name="jianzhi.medium1_25" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\code\leetcode\test\src" />
       <recent name="D:\code\leetcode\libs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MergeSort">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="newcode5_21.Main" />
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="newcode5_21.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="newcode5_21.Main2" />
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="newcode5_21.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="helloworld.sort.MergeSort" />
       <module name="leetcode" />
@@ -114,19 +127,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Shuffle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="helloworld.Shuffle" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="helloworld.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TopK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="helloworld.sort.TopK" />
       <module name="leetcode" />
@@ -140,26 +140,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TopK_small" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="helloworld.sort.TopK_small" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="helloworld.sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main2" />
         <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.TopK" />
-        <item itemvalue="Application.TopK_small" />
-        <item itemvalue="Application.Shuffle" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +194,10 @@
       <workItem from="1589171709051" duration="31591000" />
       <workItem from="1589603955936" duration="10604000" />
       <workItem from="1589640006336" duration="2393000" />
-      <workItem from="1589687068855" duration="6490000" />
+      <workItem from="1589687068855" duration="7397000" />
+      <workItem from="1589780260606" duration="53000" />
+      <workItem from="1589821976307" duration="13000" />
+      <workItem from="1590062194159" duration="1554000" />
     </task>
     <servers />
   </component>
@@ -247,22 +237,22 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="501" y="219" key="FileChooserDialogImpl/0.0.1440.920@0.0.1440.920" timestamp="1588425279739" />
-    <state width="1397" height="172" key="GridCell.Tab.0.bottom" timestamp="1589698937914">
+    <state width="1397" height="172" key="GridCell.Tab.0.bottom" timestamp="1590063661181">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="172" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1589698937914" />
-    <state width="1397" height="172" key="GridCell.Tab.0.center" timestamp="1589698937914">
+    <state width="1397" height="172" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1590063661181" />
+    <state width="1397" height="172" key="GridCell.Tab.0.center" timestamp="1590063661181">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="172" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1589698937914" />
-    <state width="1397" height="172" key="GridCell.Tab.0.left" timestamp="1589698937914">
+    <state width="1397" height="172" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1590063661181" />
+    <state width="1397" height="172" key="GridCell.Tab.0.left" timestamp="1590063661181">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="172" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1589698937914" />
-    <state width="1397" height="172" key="GridCell.Tab.0.right" timestamp="1589698937914">
+    <state width="1397" height="172" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1590063661181" />
+    <state width="1397" height="172" key="GridCell.Tab.0.right" timestamp="1590063661181">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="172" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1589698937914" />
+    <state width="1397" height="172" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1590063661181" />
     <state x="224" y="106" key="SettingsEditor" timestamp="1588403886272">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -275,10 +265,10 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="412" y="215" width="746" height="548" key="find.popup/0.0.1440.920@0.0.1440.920" timestamp="1586792463954" />
-    <state x="108" y="140" key="new project wizard" timestamp="1589604114705">
+    <state x="108" y="140" key="new project wizard" timestamp="1589780308630">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="108" y="140" key="new project wizard/0.0.1440.920@0.0.1440.920" timestamp="1589604114705" />
+    <state x="108" y="140" key="new project wizard/0.0.1440.920@0.0.1440.920" timestamp="1589780308630" />
     <state x="377" y="211" key="run.anything.popup" timestamp="1589449631654">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
