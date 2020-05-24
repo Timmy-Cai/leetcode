@@ -1,4 +1,4 @@
-package helloworld;
+package helloworld.thread;
 
 import java.util.concurrent.atomic.AtomicInteger;
 

@@ -1,4 +1,4 @@
-package helloworld;
+package helloworld.ds;
 
 import java.util.HashMap;
 import java.util.LinkedList;

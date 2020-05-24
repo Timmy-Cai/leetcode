@@ -1,4 +1,4 @@
-package helloworld;
+package helloworld.thread;
 
 public class DeadLock {
     private static final String LOCK_1 = "LOCK_1";

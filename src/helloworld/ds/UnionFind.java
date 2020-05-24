@@ -1,4 +1,4 @@
-package helloworld;
+package helloworld.ds;
 
 public class UnionFind {
     int n;
