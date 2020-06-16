@@ -30,7 +30,7 @@ public class Rand {
         return rand % 10 + 1;
     }
 
-    public static void main(String[] args) {
+    public static void main(Encode[] args) {
         for (int i = 0; i < 10; i++) System.out.println(rand7());
         for (int i = 0; i < 10; i++) System.out.println(rand10());
     }

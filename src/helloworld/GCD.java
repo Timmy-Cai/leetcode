@@ -16,7 +16,7 @@ public class GCD {
         return m * n / gcd(m, n);
     }
 
-    public static void main(String[] args) {
+    public static void main(Encode[] args) {
         int m = 6, n = 24;
         System.out.println("最大公约数：" + gcd(m, n));
         System.out.println("最小公倍数：" + lcm(m, n));

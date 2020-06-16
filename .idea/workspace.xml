@@ -2,20 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb90c471-34d4-42ac-93be-f081d17166cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/helloworld/Horse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helloworld/proxy/JDK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helloworld/thread/JUC_CountDownLatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helloworld/thread/JUC_CyclicBarrier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/cglib_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/asm-3.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/cglib-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helloworld/Encode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helloworld/IpInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helloworld/proxy/CGLibProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helloworld/proxy/PersonDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helloworld/proxy/PersonDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helloworld/sort/Sort_N.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helloworld/sort/Sort_N2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/junit_4_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/asm_3_3_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/helloworld/BinaryTree$TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/helloworld/BinaryTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/helloworld/DeadLock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/helloworld/LRU.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/helloworld/ProducerConsumer$Consumer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/helloworld/ProducerConsumer$Producer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/helloworld/ProducerConsumer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/helloworld/ThreadPrint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/helloworld/UnionFind.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/helloworld/GCD.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/helloworld/GCD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/helloworld/Horse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/helloworld/Horse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/helloworld/Prime.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/helloworld/Prime.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/helloworld/Rand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/helloworld/Rand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/helloworld/Shuffle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/helloworld/Shuffle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/helloworld/Sqrt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/helloworld/Sqrt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/helloworld/ds/LRU.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/helloworld/ds/LRU.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/helloworld/proxy/JDK.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/helloworld/sort/HeapSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/helloworld/sort/HeapSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/helloworld/sort/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/helloworld/sort/MergeSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/helloworld/sort/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/helloworld/sort/QuickSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/helloworld/sort/TopK.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/helloworld/sort/TopK.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/helloworld/thread/JUC_CountDownLatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/helloworld/thread/JUC_CountDownLatch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/helloworld/thread/ProducerConsumer$Consumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/helloworld/thread/ProducerConsumer$Producer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/helloworld/thread/ProducerConsumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helloworld/GCD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/helloworld/GCD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helloworld/Horse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/helloworld/Horse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helloworld/Prime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/helloworld/Prime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helloworld/Rand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/helloworld/Rand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helloworld/Shuffle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/helloworld/Shuffle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helloworld/Sqrt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/helloworld/Sqrt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helloworld/ds/LRU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/helloworld/ds/LRU.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helloworld/proxy/JDK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/helloworld/proxy/JDKProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helloworld/sort/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/helloworld/sort/HeapSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helloworld/sort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/helloworld/sort/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helloworld/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/helloworld/sort/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helloworld/sort/TopK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/helloworld/sort/TopK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helloworld/thread/ProducerConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/helloworld/thread/JUC_Semaphore.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +87,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/test/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../springcloud-demo/pom.xml" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -67,8 +95,8 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
@@ -81,13 +109,14 @@
       <recent name="helloworld" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\leetcode\lib" />
       <recent name="D:\code\leetcode\test\src" />
       <recent name="D:\code\leetcode\libs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JUC_CountDownLatch">
-    <configuration name="Horse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="helloworld.Horse" />
+  <component name="RunManager" selected="Application.Sort_N2">
+    <configuration name="Encode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="helloworld.Encode" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -99,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JUC_CountDownLatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="helloworld.thread.JUC_CountDownLatch" />
+    <configuration name="IpInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="helloworld.IpInt" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="helloworld.thread.*" />
+          <option name="PATTERN" value="helloworld.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JUC_CyclicBarrier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="helloworld.thread.JUC_CyclicBarrier" />
+    <configuration name="Sort_N" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="helloworld.sort.Sort_N" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="helloworld.thread.*" />
+          <option name="PATTERN" value="helloworld.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,25 +154,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProducerConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="helloworld.thread.ProducerConsumer" />
+    <configuration name="Sort_N2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="helloworld.sort.Sort_N2" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="helloworld.thread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Sqrt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="helloworld.Sqrt" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="helloworld.thread.*" />
+          <option name="PATTERN" value="helloworld.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,11 +169,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JUC_CountDownLatch" />
-        <item itemvalue="Application.JUC_CyclicBarrier" />
-        <item itemvalue="Application.Horse" />
-        <item itemvalue="Application.Sqrt" />
-        <item itemvalue="Application.ProducerConsumer" />
+        <item itemvalue="Application.Sort_N2" />
+        <item itemvalue="Application.Sort_N" />
+        <item itemvalue="Application.IpInt" />
+        <item itemvalue="Application.Encode" />
       </list>
     </recent_temporary>
   </component>
@@ -219,6 +234,18 @@
       <workItem from="1590600510090" duration="33000" />
       <workItem from="1590693511737" duration="2112000" />
       <workItem from="1590821887005" duration="2482000" />
+      <workItem from="1591093323989" duration="3955000" />
+      <workItem from="1591199997815" duration="41000" />
+      <workItem from="1591865352986" duration="173000" />
+      <workItem from="1591956372448" duration="395000" />
+      <workItem from="1591957424058" duration="980000" />
+      <workItem from="1591965559367" duration="1890000" />
+      <workItem from="1591988690807" duration="890000" />
+      <workItem from="1592039421592" duration="2553000" />
+      <workItem from="1592160675134" duration="617000" />
+      <workItem from="1592201689696" duration="217000" />
+      <workItem from="1592202253482" duration="9458000" />
+      <workItem from="1592290477318" duration="2365000" />
     </task>
     <servers />
   </component>
@@ -242,14 +269,14 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="201" y="35" key="#Project_Structure/0.0.1440.920@0.0.1440.920" timestamp="1590212762294" />
-    <state x="176" y="119" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588406012615">
+    <state x="176" y="119" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591116771961">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="176" y="119" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.920@0.0.1440.920" timestamp="1588406012615" />
-    <state x="526" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1590824584252">
+    <state x="176" y="119" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.920@0.0.1440.920" timestamp="1591116771961" />
+    <state x="526" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1591114962648">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="526" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1440.920@0.0.1440.920" timestamp="1590824584252" />
+    <state x="526" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1440.920@0.0.1440.920" timestamp="1591114962648" />
     <state x="401" y="190" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1584964245294">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -262,30 +289,46 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="475" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.920@0.0.1440.920" timestamp="1590822032619" />
-    <state x="501" y="219" key="FileChooserDialogImpl" timestamp="1588425279739">
+    <state x="501" y="219" key="FileChooserDialogImpl" timestamp="1591200033622">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="501" y="219" key="FileChooserDialogImpl/0.0.1440.920@0.0.1440.920" timestamp="1588425279739" />
-    <state width="1397" height="133" key="GridCell.Tab.0.bottom" timestamp="1590824821757">
+    <state x="501" y="219" key="FileChooserDialogImpl/0.0.1440.920@0.0.1440.920" timestamp="1591200033622" />
+    <state width="1397" height="126" key="GridCell.Tab.0.bottom" timestamp="1592292843774">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="133" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1590824821757" />
-    <state width="1397" height="133" key="GridCell.Tab.0.center" timestamp="1590824821756">
+    <state width="1397" height="126" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1592292843774" />
+    <state width="1397" height="126" key="GridCell.Tab.0.center" timestamp="1592292843773">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="133" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1590824821756" />
-    <state width="1397" height="133" key="GridCell.Tab.0.left" timestamp="1590824821756">
+    <state width="1397" height="126" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1592292843773" />
+    <state width="1397" height="126" key="GridCell.Tab.0.left" timestamp="1592292843773">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="133" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1590824821756" />
-    <state width="1397" height="133" key="GridCell.Tab.0.right" timestamp="1590824821757">
+    <state width="1397" height="126" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1592292843773" />
+    <state width="1397" height="126" key="GridCell.Tab.0.right" timestamp="1592292843773">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="133" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1590824821757" />
-    <state x="224" y="106" key="SettingsEditor" timestamp="1588403886272">
+    <state width="1397" height="126" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1592292843773" />
+    <state width="1397" height="300" key="GridCell.Tab.1.bottom" timestamp="1591115440957">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="224" y="106" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1588403886272" />
+    <state width="1397" height="300" key="GridCell.Tab.1.bottom/0.0.1440.920@0.0.1440.920" timestamp="1591115440957" />
+    <state width="1397" height="300" key="GridCell.Tab.1.center" timestamp="1591115440956">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="300" key="GridCell.Tab.1.center/0.0.1440.920@0.0.1440.920" timestamp="1591115440956" />
+    <state width="1397" height="300" key="GridCell.Tab.1.left" timestamp="1591115440956">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="300" key="GridCell.Tab.1.left/0.0.1440.920@0.0.1440.920" timestamp="1591115440956" />
+    <state width="1397" height="300" key="GridCell.Tab.1.right" timestamp="1591115440957">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="300" key="GridCell.Tab.1.right/0.0.1440.920@0.0.1440.920" timestamp="1591115440957" />
+    <state x="224" y="69" key="SettingsEditor" timestamp="1591116650268">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="224" y="69" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1591116650268" />
     <state x="451" y="232" key="extract.method.dialog" timestamp="1586720150675">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -294,17 +337,17 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="412" y="215" width="746" height="548" key="find.popup/0.0.1440.920@0.0.1440.920" timestamp="1586792463954" />
-    <state x="108" y="140" key="new project wizard" timestamp="1589780308630">
+    <state x="108" y="140" key="new project wizard" timestamp="1591865399740">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="108" y="140" key="new project wizard/0.0.1440.920@0.0.1440.920" timestamp="1589780308630" />
+    <state x="108" y="140" key="new project wizard/0.0.1440.920@0.0.1440.920" timestamp="1591865399740" />
     <state x="377" y="211" key="run.anything.popup" timestamp="1590224149755">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="377" y="211" key="run.anything.popup/0.0.1440.920@0.0.1440.920" timestamp="1590224149755" />
-    <state x="383" y="195" width="672" height="678" key="search.everywhere.popup" timestamp="1587552726039">
+    <state x="383" y="195" width="672" height="678" key="search.everywhere.popup" timestamp="1592290765571">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="383" y="195" width="672" height="678" key="search.everywhere.popup/0.0.1440.920@0.0.1440.920" timestamp="1587552726039" />
+    <state x="383" y="195" width="672" height="678" key="search.everywhere.popup/0.0.1440.920@0.0.1440.920" timestamp="1592290765571" />
   </component>
 </project>

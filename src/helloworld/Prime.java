@@ -31,7 +31,7 @@ public class Prime {
             if (num[i]) System.out.print(i + " ");
     }
 
-    public static void main(String[] args) {
+    public static void main(Encode[] args) {
         prime(100);
         System.out.println();
         prime2(100);

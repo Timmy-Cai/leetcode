@@ -19,7 +19,7 @@ public class Horse {
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(Encode[] args) {
         m = 5;
         n = 4;
         x = 0;

@@ -27,6 +27,6 @@ public class MergeSort {
         int[] arr;
         arr = new int[]{9, 8, 7, 6, 5, 4, 3, 2, 1, 0};
         mergeSort(arr, 0, arr.length - 1);
-        for (int value : arr) System.out.print(value + " ");
+        for (int n : arr) System.out.print(n + " ");
     }
 }

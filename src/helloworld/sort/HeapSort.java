@@ -2,7 +2,7 @@ package helloworld.sort;
 
 public class HeapSort {
     public static void heapSort(int[] arr, int n) {
-        // 创建大顶堆（N/2次向下调整）
+        // 创建最大堆（N/2次向下调整）
         for (int i = (n - 1) / 2; i >= 0; i--) {
             down(arr, i, n);
         }
@@ -37,6 +37,6 @@ public class HeapSort {
         int[] arr;
         arr = new int[]{9, 8, 7, 6, 5, 4, 3, 2, 1, 0};
         heapSort(arr, arr.length);
-        for (int value : arr) System.out.print(value + " ");
+        for (int n : arr) System.out.print(n + " ");
     }
 }

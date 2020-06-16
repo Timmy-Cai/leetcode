@@ -35,12 +35,12 @@ public class QuickSort {
         int[] arr;
         arr = new int[]{9, 8, 7, 6, 5, 4, 3, 2, 1, 0};
         quickSort(arr, 0, arr.length - 1);
-        for (int num : arr) System.out.print(num + " ");
+        for (int n : arr) System.out.print(n + " ");
 
         System.out.println();
         arr = new int[]{5, 5, 4, 4, 3, 3, 2, 2, 1, 1};
         quickSort2(arr, 0, arr.length - 1);
-        for (int num : arr) System.out.print(num + " ");
+        for (int n : arr) System.out.print(n + " ");
     }
 
     // 优化：

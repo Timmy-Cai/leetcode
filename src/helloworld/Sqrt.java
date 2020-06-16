@@ -24,7 +24,7 @@ public class Sqrt {
         return mid;
     }
 
-    public static void main(String[] args) {
+    public static void main(Encode[] args) {
         int[] arr = {1, 3, 5, 7, 9, 11, 13, 15, 17, 19};
         System.out.println(binarySearch(arr, 11));
         System.out.println(sqrt(10));

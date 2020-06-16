@@ -44,7 +44,7 @@ public class TopK {
 
         // 最小的k个数
         int[] result = find1(nums, k);
-        for (int num : result) System.out.print(num + " ");
+        for (int n : result) System.out.print(n + " ");
 
         // 数组中的第k个最大元素
         System.out.println();

@@ -2,7 +2,7 @@ package helloworld.thread;
 
 import java.util.concurrent.Semaphore;
 
-public class ProducerConsumer {
+public class JUC_Semaphore {
 
     // 信号量
     public static final int N = 10;
@@ -14,7 +14,7 @@ public class ProducerConsumer {
     public static int item = 0;
 
     public static void main(String[] args) {
-        ProducerConsumer pc = new ProducerConsumer();
+        JUC_Semaphore pc = new JUC_Semaphore();
         new Thread(pc.new Producer()).start();
         new Thread(pc.new Consumer()).start();
         new Thread(pc.new Producer()).start();
